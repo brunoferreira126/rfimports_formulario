@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <title>Reinauguração RF Imports</title>
+</head>
+<body>
+    <section class="container-padrao">
+        <form method="post" action="https://api.sheetmonkey.io/form/p83m2F8ExbUif11vmFvJVj">
+            <div class="alinhamento-fieldset">
+                <fieldset>
+                    <img class="logomarca" src="/img/logomarca.png" alt="logo">
+                    <label for="nome">Nome Completo:</label>
+                    <input id="nome" name="NOME" type="text" placeholder="Digite seu nome completo" required>
+                    <label for="idade">Idade:</label>
+                    <input id="idade" name="IDADE" type="number" placeholder="Digite sua idade" required>
+                    <label for="whatsapp">WhatsApp:</label>
+                    <input id="whatsapp" name="WHATSAPP" type="tel" placeholder="Digite seu WhatsApp" required>
+                    <label for="email">E-mail:</label>
+                    <input id="email" name="EMAIL" type="email" placeholder="Digite seu e-mail para futuras comunicações">
+                    <label for="produto">Qual produto você gostaria de ver em promoção na reinauguração?</label>
+                    <input id="produto" name="PRODUTO" type="text" placeholder="Digite o produto desejado" required>
+                    <label>Confirme sua presença no evento:</label>
+                    <div class="presença">
+                        <input type="radio" id="presenca_sim" name="CONFIRME" value="Confirmada">
+                        <label for="presenca_sim">Presença Confirmada</label>
+                        <input type="radio" id="presenca_nao" name="CONFIRME" value="Nao-confirmada">
+                        <label for="presenca_nao">Não poderei comparecer</label>
+                    </div>
+                    <label for="interesse">Você tem interesse em participar de outras promoções exclusivas via WhatsApp?</label>
+                    <div class="interesse">
+                        <input type="radio" id="interesse_sim" name="INTERESSE" value="Sim">
+                        <label for="interesse_sim">Sim</label>
+                        <input type="radio" id="interesse_nao" name="INTERESSE" value="Não">
+                        <label for="interesse_nao">Não</label>
+                    </div>
+                    <button type="submit">Enviar Resposta</button>
+                </fieldset>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
