@@ -11,14 +11,12 @@ body {
     height: 100%;
     background-color: #f3f3f3;
     background-image: url("/img/fachada.jpg");
-    background-image: url("/img/fachada.jpg");
     background-size: cover; /* Para cobrir todo o espaço disponível */
     background-repeat: no-repeat; /* Para não repetir a imagem */
     background-attachment: fixed; /* Para fixar a imagem enquanto a página é rolada */
 }
 
 /* Estilização do fieldset */
-
 .container-padrao fieldset {
     width: 80%;
     max-width: 600px;
@@ -27,8 +25,6 @@ body {
     border: none;
     background-color: rgba(255, 255, 255, 0.8); /* Cor branca com 80% de opacidade */
     padding: 20px;
-
- 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -52,7 +48,7 @@ fieldset label {
 
 fieldset input {
     width: 100%;
-    padding: 10px;
+    padding: 12px; /* Ajuste no tamanho do input para ser mais fácil de clicar */
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -72,10 +68,12 @@ fieldset input {
     margin-right: 10px;
     flex: 1; /* Para que os rótulos ocupem o mesmo espaço */
 }
+
 .presença input[type="radio"],
 .interesse input[type="radio"] {
     flex: 1; /* Para que os botões de rádio ocupem o mesmo espaço */
 }
+
 button[type="submit"] {
     display: block;
     width: 100%;
@@ -96,6 +94,7 @@ button[type="submit"]:hover {
 /* Estilos para telas muito pequenas, como smartphones */
 @media screen and (max-width: 480px) {
     .container-padrao fieldset {
+        width: 90%; /* Ajuste na largura do fieldset para ocupar mais espaço em telas pequenas */
         padding: 15px;
     }
 
@@ -113,5 +112,11 @@ button[type="submit"]:hover {
 
     button[type="submit"] {
         font-size: 16px;
+    }
+
+    body {
+        background-size: auto; /* Alteração no tamanho da imagem de fundo para se ajustar melhor em dispositivos móveis */
+        background-position: center; /* Centralizar a imagem de fundo */
+        min-height: 100vh; /* Garantir que a imagem de fundo cubra toda a altura da tela */
     }
 }
