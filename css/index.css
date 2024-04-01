@@ -10,6 +10,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: #f3f3f3;
+    background-image: url("/img/fachada.jpg");
+    background-size: cover; /* Para cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Para não repetir a imagem */
+    background-attachment: fixed; /* Para fixar a imagem enquanto a página é rolada */
    
 }
 
@@ -105,6 +109,7 @@ button[type="submit"]:hover {
 
     fieldset input {
         font-size: 14px;
+        margin-rigth: auto;
     }
     
     .presença, .interesse{
