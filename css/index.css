@@ -115,7 +115,7 @@ button[type="submit"]:hover {
     }
 
     body {
-        background-size: auto; /* Alteração no tamanho da imagem de fundo para se ajustar melhor em dispositivos móveis */
+      
         background-position: center; /* Centralizar a imagem de fundo */
         min-height: 100vh; /* Garantir que a imagem de fundo cubra toda a altura da tela */
     }
