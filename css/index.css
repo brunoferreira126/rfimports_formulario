@@ -109,6 +109,10 @@ button[type="submit"]:hover {
     fieldset input {
         font-size: 14px;
     }
+    
+    .presença, .interesse{
+        width: auto;
+}
 
     button[type="submit"] {
         font-size: 16px;
